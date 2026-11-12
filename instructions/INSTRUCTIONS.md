@@ -9,3 +9,16 @@ Code goes in `src/components/DriversDashboard.vue`
 ## Data
 
 We'll use the [OpenF1 API](https://openf1.org/docs/).
+
+## Part 1: API integration
+
+Create a table of the drivers in the race.
+
+- Base URL: `https://api.openf1.org/v1`
+- Endpoint: `/drivers`
+- Session: the 2026 São Paulo Grand Prix race, `session_key=11412`
+
+**Requirements**
+
+- Fetch the drivers from the API.
+- Show these columns: Driver Number, Name, Team, Acronym.
