@@ -22,3 +22,10 @@ Create a table of the drivers in the race.
 
 - Fetch the drivers from the API.
 - Show these columns: Driver Number, Name, Team, Acronym.
+
+## Part 2: Sorting and search
+
+**Requirements**
+
+- Add a "Sort by Name" button that sorts the drivers alphabetically.
+- Add a search box that filters the table by driver name as you type.
